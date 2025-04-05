@@ -1,6 +1,6 @@
 name = "Dbus_jll"
 uuid = "ee1fde0b-3d02-5ea6-8484-8dfef6360eab"
-version = "1.14.10+0"
+version = "1.16.2+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -9,8 +9,8 @@ Expat_jll = "2e619515-83b5-522b-bb60-26c02a35a201"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
-JLLWrappers = "1.2.0"
+JLLWrappers = "1.7.0"
 julia = "1.6"
-Libdl = "1"
-Expat_jll = "2.2.10"
-Artifacts = "1"
+Libdl = "< 0.0.1, 1"
+Expat_jll = "2.6.5"
+Artifacts = "< 0.0.1, 1"
